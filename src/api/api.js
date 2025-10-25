@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = import.meta.env.VITE_API_URL || "https://ckend-6ozb.onrender.com";
+cconst BASE_URL = "https://multi-vendor-backend-6ozb.onrender.com";
 
 const api = axios.create({
   baseURL: BASE_URL,
