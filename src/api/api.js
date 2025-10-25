@@ -1,13 +1,13 @@
 import axios from "axios";
 
-cconst BASE_URL = "https://multi-vendor-backend-6ozb.onrender.com";
+const BASE_URL = "https://multi-vendor-backend-6ozb.onrender.com";
 
 const api = axios.create({
   baseURL: BASE_URL,
   timeout: 10000
 });
 
-// Example API functions (adjust endpoints to backend)
+// Example API functions
 export const getProducts = async () => {
   const res = await api.get("/api/products");
   return res.data;
