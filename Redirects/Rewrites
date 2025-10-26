@@ -1,5 +1,0 @@
-| Setting         | Value         |
-| --------------- | ------------- |
-| **Source**      | `/*`          |
-| **Destination** | `/index.html` |
-| **Action**      | `Rewrite`     |
